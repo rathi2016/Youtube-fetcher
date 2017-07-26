@@ -1,5 +1,18 @@
 body {
+  background-color: #27AE60 ;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.youtube {
+  border: 3px blue dashed ;
+  margin-top: 20;
+}
+
+button {
+  margin: 10px;
+  padding:10px 20px;
+  font-size: 20px;
+  background-color: #ffcccc;
 }
