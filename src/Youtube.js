@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+const API = ''
 var Youtube   = React.createClass({
   render () {
     return (
@@ -18,4 +18,5 @@ var Youtube   = React.createClass({
   }
 })
 
-export default Youtube
+
+export default Youtube;
