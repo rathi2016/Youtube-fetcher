@@ -4,6 +4,7 @@ var FontAwesome = require('react-fontawesome');
 var MyComponent = React.createClass({
   render: function () {
     return (
+      
       <FontAwesome
         className='super-crazy-colors'
         name='rocket'
