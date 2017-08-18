@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Youtube from'./Youtube';
 import Calculator from './Calculator';
-import FontAwesome from './FontAwesome'
+import FontAwesome from './FontAwesome';
+import Timer from './Timer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Youtube/>
    <Calculator/>
      <FontAwesome/>
+      <Timer />
 
       </div>
 
