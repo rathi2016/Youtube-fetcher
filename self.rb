@@ -7,11 +7,22 @@ end
 class Person
   include Singable
   attr_accessor:name
-
+  @@crowd = 0
   def initialize(name)
     @name=name
+     @@crowd += 1
   end
+
+  def existential_crisis
+   self
+ end
+
+ def self.population
+   @@crowd
+ end
 end
 
 Rathi = Person.new("Rathi")
-puts Shane.sing
+a = Person.new("Aaron")
+# a.population
+puts Person.population
