@@ -5,6 +5,7 @@ import Youtube from'./Youtube';
 import Calculator from './Calculator';
 import FontAwesome from './FontAwesome';
 import Timer from './Timer';
+import TodoApp from './Todo';
 
 class App extends Component {
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
    <Calculator/>
      <FontAwesome/>
       <Timer />
-
+      <TodoApp/>
       </div>
 
 
