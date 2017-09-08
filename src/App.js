@@ -7,7 +7,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
 
-          <h2>Youtube Fetcher</h2>
+          
         </div>
         <Youtube/>
       </div>
