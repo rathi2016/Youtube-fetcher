@@ -28,6 +28,7 @@ class SearchBar extends Component {
        term: event.target.value
      });
      this.props.onSearchTermChange(this.state.term);
+    
   }
 
 }

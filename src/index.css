@@ -1,3 +1,4 @@
+
 .search-bar {
   margin: 40px;
   width: 95%;
@@ -21,11 +22,20 @@
   height:30px;
   outline:0;
 }
-
+.header-text h2 {
+  font-family: 'Miller Ban It';
+	font-size: 40px;
+  text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
 .video-item img {
   max-width: 64px;
 }
 .video-detail .details {
+
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #ddd;

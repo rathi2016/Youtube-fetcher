@@ -6,8 +6,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-
-          
+          <div className= "header-text">
+            <h2> VideoSearch </h2>
+          </div>
         </div>
         <Youtube/>
       </div>
